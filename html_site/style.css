@@ -1,0 +1,105 @@
+@import url("http://fonts.googleapis.com/css?family=Quicksand");
+@import url("http://fonts.googleapis.com/css?family=Hammersmith+One");
+@import url("http://fonts.googleapis.com/css?family=Lato");
+
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+.name
+{
+  width: 600px;
+  border-radius: 5px;
+ /* margin: 0 auto 0 auto;*/
+  background-color: transparent;
+
+}
+
+.who
+{
+  width:400px;
+  text-align: left;
+ /* margin: 0 auto;*/
+  font-size: 16;
+
+}
+a.name{
+  }
+
+
+.links
+{
+  font:2.0em/20px "Quicksand";
+  text-align: left;
+  font-size: 18px;   
+}
+
+
+
+.sieve
+{
+  font:2.0em/20px "Quicksand";
+  text-align: left;
+  font-size: 18px; 
+}
+form
+{
+   font:1.0em/20px "Quicksand";
+  font-size: 14px; 
+}
+.button
+{
+  display: block;
+  height: 50px;
+  width: 150px;
+  background: transparent;/*background: transparent;*/
+  /*border-color: #FFFFFF;*/
+  border: 2px solid rgba(0,0,0,1.0);
+  color: rgba(0,0,0,1.0);
+  text-align: center;
+  padding: 15px;
+  margin: 25px auto 0px auto ;
+  float: center;
+  font:  2.0em/50px "Quicksand";
+  /*background: linear-gradient(top,#899D3E,#5F6D2B);*/
+  border-radius: 5px;
+ /* text-shadow: 0px -1px 0px #FFFFFF;*/
+}
+a.button {
+  text-decoration: none;
+}
+
+a.button:hover {
+    color: #16a085;
+    height:55px;
+    width: 165px;
+    /*background: #666666;*/*/
+
+}
+
+p
+{
+  font:1.0em/20px "Quicksand";
+  text-align: left;
+  font-size: 14px;
+}
+
+header {
+  font-family: 'Quicksand';
+  padding: 10px 10px;
+  color: #000000;
+  font-size: 25px;
+  text-align: left;
+  background-color: transparent;
+  font: 2.0em/50px "Quicksand";
+  /*border-bottom: 1px solid #606e2b;*/
+  /*text-shadow: 0px -1px 0px #FFFFFF;*/
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
